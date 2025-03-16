@@ -1,8 +1,11 @@
 # brain_games/games/even.py
 import random
 
+from brain_games.games.engine import play_game
+
 
 def is_even(number):
+    """Check if a number is even."""
     return number % 2 == 0
 
 
@@ -13,26 +16,5 @@ def generate_question():
 
 
 def play_even_or_odd(name):
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
-    correct_answers_needed = 3
-    correct_answers = 0
-
-    while correct_answers < correct_answers_needed:
-        number, correct_answer = generate_question()
-        print(f"Question: {number}")
-
-        answer = input("Your answer: ").strip().lower()
-
-        if answer == correct_answer:
-            print("Correct!")
-            correct_answers += 1
-        else:
-            print(
-                f"'{answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'."
-            )
-            print(f"Let's try again, {name}!")
-            return
-
-    print(f"Congratulations, {name}!")
+    rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+    play_game(name, rules, generate_question)

@@ -7,6 +7,9 @@ brain-games:
 brain-even:
 	brain-even
 
+brain-calc:
+	brain-calc
+
 build:
 	uv pip compile -o requirements.txt pyproject.toml
 	uv pip sync requirements.txt
