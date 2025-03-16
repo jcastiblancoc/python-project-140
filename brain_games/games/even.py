@@ -3,19 +3,16 @@ import random
 
 
 def is_even(number):
-    """Check if a number is even."""
     return number % 2 == 0
 
 
 def generate_question():
-    """Generate a random number and the correct answer."""
     number = random.randint(1, 100)
     correct_answer = "yes" if is_even(number) else "no"
     return number, correct_answer
 
 
 def play_even_or_odd(name):
-    """Play the 'Is it Even or Odd?' game."""
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     correct_answers_needed = 3
