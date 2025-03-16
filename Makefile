@@ -1,14 +1,18 @@
 install:
-	uv sync
+	uv pip install -e .
 
 brain-games:
-	uv run brain-games
+	brain-games
+
+brain-even:
+	brain-even
 
 build:
-	uv build
+	uv pip compile -o requirements.txt pyproject.toml
+	uv pip sync requirements.txt
 
 package-install:
-	uv tool install dist/*.whl
+	uv pip install dist/*.whl
 
 lint:
-	uv run ruff check brain_games
+	uv run ruff check brain_games --fix
