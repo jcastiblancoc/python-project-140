@@ -16,6 +16,9 @@ brain-gdc:
 brain-progression:
 	brain-progression
 
+brain-prime:
+	brain-prime
+
 build:
 	uv pip compile -o requirements.txt pyproject.toml
 	uv pip sync requirements.txt

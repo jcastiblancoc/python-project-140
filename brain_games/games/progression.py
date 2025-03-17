@@ -1,5 +1,6 @@
 # brain_games/games/progression.py
 import random
+
 from brain_games.games.engine import play_game
 
 

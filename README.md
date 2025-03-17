@@ -20,3 +20,7 @@
 ### Asciinema
 
 [![asciicast](https://asciinema.org/a/9oWyw75IBUsCX2ytpRioXeK3r.svg)](https://asciinema.org/a/9oWyw75IBUsCX2ytpRioXeK3r)
+
+### Asciinema brain-prime
+
+[![asciicast](https://asciinema.org/a/2NAAqcsZaEdGNNeq5OWJX2R4q.svg)](https://asciinema.org/a/2NAAqcsZaEdGNNeq5OWJX2R4q)
