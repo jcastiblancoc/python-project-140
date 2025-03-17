@@ -16,3 +16,7 @@
 ### Asciinema brain-gcd
 
 [![asciicast](https://asciinema.org/a/9yDGKGtlXiYhPhU1oebs6zfgI.svg)](https://asciinema.org/a/9yDGKGtlXiYhPhU1oebs6zfgI)
+
+### Asciinema
+
+[![asciicast](https://asciinema.org/a/9oWyw75IBUsCX2ytpRioXeK3r.svg)](https://asciinema.org/a/9oWyw75IBUsCX2ytpRioXeK3r)
