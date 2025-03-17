@@ -7,12 +7,12 @@
 
 ### Asciinema brain-even
 
-<a href="https://asciinema.org/a/oJJj3FZjdAbyAvfTnIRvAmmn6" target="_blank"><img src="https://asciinema.org/a/oJJj3FZjdAbyAvfTnIRvAmmn6.svg" /></a>
-
 [![asciicast](https://asciinema.org/a/oJJj3FZjdAbyAvfTnIRvAmmn6.svg)](https://asciinema.org/a/oJJj3FZjdAbyAvfTnIRvAmmn6)
 
 ### Asciinema brain-calc
 
-<a href="https://asciinema.org/a/8oDJz2mlo8buVJ7ayRVfEGiVt" target="_blank"><img src="https://asciinema.org/a/8oDJz2mlo8buVJ7ayRVfEGiVt.svg" /></a>
-
 [![asciicast](https://asciinema.org/a/8oDJz2mlo8buVJ7ayRVfEGiVt.svg)](https://asciinema.org/a/8oDJz2mlo8buVJ7ayRVfEGiVt)
+
+### Asciinema brain-gcd
+
+[![asciicast](https://asciinema.org/a/9yDGKGtlXiYhPhU1oebs6zfgI.svg)](https://asciinema.org/a/9yDGKGtlXiYhPhU1oebs6zfgI)

@@ -10,6 +10,8 @@ brain-even:
 brain-calc:
 	brain-calc
 
+brain-gdc:
+	brain-gcd
 build:
 	uv pip compile -o requirements.txt pyproject.toml
 	uv pip sync requirements.txt

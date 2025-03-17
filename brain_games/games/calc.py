@@ -5,7 +5,6 @@ from brain_games.games.engine import play_game
 
 
 def generate_question():
-    """Generate a random math question."""
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])
